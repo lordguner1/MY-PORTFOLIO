@@ -480,36 +480,9 @@
         }
       }
 
-      .whatsapp-btn {
-        background-color: #25d366;
-        color: white;
-        padding: 12px 24px;
-        border: none;
-        border-radius: 50px;
-        font-size: 16px;
-        font-weight: bold;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        transition: all 0.3s ease;
-        text-decoration: none;
-        width: fit-content;
-      }
-
-      .whatsapp-btn:hover {
-        background-color: #128c7e;
-        transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
-      }
-
-      .whatsapp-btn:active {
-        transform: translateY(0);
-      }
-
-      .whatsapp-icon {
-        font-size: 20px;
-      }
+      #whatsapp-button a:hover {
+    background-color: #128C7E;
+  }
     </style>
   </head>
   <body>
@@ -517,7 +490,7 @@
     <header>
       <div class="container">
         <nav class="navbar">
-          <a href="#" class="logo">YAHYA<span>AMHAR</span></a>
+          <a href="#" class="logo"><span>YAHYA AMHAR</span></a>
           <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -563,7 +536,7 @@
             <!--your img here-->
             <img
               src="https://mail.google.com/mail/u/0?ui=2&ik=fc7432fc15&attid=0.1&permmsgid=msg-f:1846055764659587817&th=199e81efe818cae9&view=att&zw&disp=safe"
-              alt="Your Name"
+              alt="PROBLEM PLEASE TRY REFRESHING THE PAGE"
             />
           </div>
           <div class="about-text">
@@ -611,11 +584,13 @@
               </p>
               <div class="project-links">
                 <a
+                  target="_blank"
                   href="https://lordguner1.github.io/Travel-Website/"
                   class="project-link"
                   >Live Demo</a
                 >
                 <a
+                  target="_blank"
                   href="https://github.com/lordguner1/Travel-Website.git"
                   class="project-link"
                   >Source Code</a
@@ -659,25 +634,23 @@
               </div>
               <div>
                 <h3>Phone</h3>
-                <p>+94710239810</p>
+                <p>+94712139810</p>
               </div>
             </div>
           </div>
           <div class="contact-form">
             <!-- Replace "1234567890" with your actual phone number -->
             <a
-              href="https://wa.me/+94710239810"
+              href="https://wa.me/+94712139810"
               class="whatsapp-btn"
               target="_blank"
             >
-              <span class="whatsapp-icon">💬</span>
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
+              <!-- WhatsApp Floating Button HTML -->
+<div id="whatsapp-button" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+  <a href="https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER" target="_blank" style="display: block; width: 60px; height: 60px; background-color: #25D366; border-radius: 50%; box-shadow: 0 2px 5px rgba(0,0,0,0.3); text-align: center; line-height: 60px; transition: background-color 0.3s;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp" style="width: 30px; height: 30px; vertical-align: middle;">
+  </a>
+</div>
     <!-- Footer -->
     <footer>
       <div class="container">
